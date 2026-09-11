@@ -121,11 +121,9 @@ details p { max-width: 780px; margin: 10px 0 0; }
 .education-copy { border-top: 1px solid var(--ink); padding-top: 30px; }
 .education-copy .date { color: var(--lake-dark); font-weight: 700; }
 .education-copy h3 { margin: 0; font-family: var(--serif); font-size: 34px; }
+.education-copy h3 span { font-family: "Songti SC", "SimSun", serif; font-size: .72em; font-weight: 400; }
 .education-copy p { margin: 5px 0 0; }
-.academic-facts { display: grid; grid-template-columns: 1fr; max-width: 260px; margin: 37px 0 0; border-top: 1px solid var(--line); }
-.academic-facts div { padding: 20px 16px 0 0; }
-.academic-facts dt { color: var(--muted); font-size: 14px; }
-.academic-facts dd { margin: 2px 0 0; font-family: var(--serif); font-size: 26px; font-weight: 600; }
+.education-entry + .education-entry { margin-top: 30px; padding-top: 28px; border-top: 1px solid var(--line); }
 
 .honors-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ink); }
 .honors-list li { display: grid; grid-template-columns: 110px 1fr; gap: 38px; padding: 19px 0; border-bottom: 1px solid var(--line); }
@@ -176,7 +174,6 @@ details p { max-width: 780px; margin: 10px 0 0; }
   .publication { grid-template-columns: 1fr; gap: 5px; padding-block: 28px; }
   .pub-year { font-size: 18px; }
   .pub-body h3 { font-size: 23px; }
-  .academic-facts { grid-template-columns: 1fr; }
   .honors-list li { grid-template-columns: 64px 1fr; gap: 16px; }
   .footer-grid { grid-template-columns: 1fr; }
   .copyright { grid-column: auto; }
