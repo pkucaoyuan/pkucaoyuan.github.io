@@ -121,7 +121,6 @@ details p { max-width: 780px; margin: 10px 0 0; }
 .education-copy { border-top: 1px solid var(--ink); padding-top: 30px; }
 .education-copy .date { color: var(--lake-dark); font-weight: 700; }
 .education-copy h3 { margin: 0; font-family: var(--serif); font-size: 34px; }
-.education-copy h3 span { font-family: "Songti SC", "SimSun", serif; font-size: .72em; font-weight: 400; }
 .education-copy p { margin: 5px 0 0; }
 .education-entry + .education-entry { margin-top: 30px; padding-top: 28px; border-top: 1px solid var(--line); }
 
